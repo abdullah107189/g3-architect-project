@@ -158,6 +158,7 @@ main {
     /* team membar section  */
     .teamMemberSection {
         flex-direction: column;
+        gap: 0px;
     }
 
     .teamMembers>img {
