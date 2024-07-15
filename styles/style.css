@@ -21,6 +21,10 @@
     color: rgb(255, 144, 14);
 }
 
+.dark {
+    color: rgb(114, 114, 114);
+}
+
 .primaryBtn {
     border-radius: 8px;
     background: rgb(255, 144, 14);
@@ -83,7 +87,8 @@ nav>ul>li {
     width: 100%;
     margin: 50px 0px;
 }
-.headerImage>img{
+
+.headerImage>img {
     width: 100%;
 }
 
@@ -207,6 +212,31 @@ main {
     font-weight: 600;
 }
 
+/* sponspor section start here  */
+.SponsporSection {}
+
+.sponspor-titel {
+    text-align: center;
+}
+
+.sponspor-titel>h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponspor-titel>p {
+    margin: 24px 0px 50px 0px;
+    color: rgb(114, 114, 114);
+}
+.sponsporLogo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.sponsporLogo>img {
+    filter: grayscale(100%);
+    text-align: center;
+}
 
 /* small devices responsive style  */
 @media screen and (max-width:576px) {
