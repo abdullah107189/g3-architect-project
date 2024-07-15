@@ -213,8 +213,6 @@ main {
 }
 
 /* sponspor section start here  */
-.SponsporSection {}
-
 .sponspor-titel {
     text-align: center;
 }
@@ -228,14 +226,31 @@ main {
     margin: 24px 0px 50px 0px;
     color: rgb(114, 114, 114);
 }
-.sponsporLogo{
+
+.sponsporLogo {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
 }
+
 .sponsporLogo>img {
     filter: grayscale(100%);
     text-align: center;
+}
+
+
+/* --------------footer ---------------- */
+footer {
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+footer>p {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 /* small devices responsive style  */
@@ -369,7 +384,7 @@ main {
     }
 
     .facts-title>p {
-        margin: 14px 0px 30px 0px;
+        margin: 14px 0px 20px 0px;
     }
 
     .analysisSection {
@@ -378,7 +393,8 @@ main {
         flex-direction: column;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 50px;
         padding: 10px;
         gap: 10px;
     }
@@ -396,5 +412,41 @@ main {
     .numberOfAna {
         font-size: 35px;
         font-weight: 600;
+    }
+
+
+    /* sponspor section start here  */
+
+
+    .sponspor-titel>h1 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .sponspor-titel>p {
+        margin: 24px 0px 20px 0px;
+        color: rgb(114, 114, 114);
+    }
+
+    .sponsporLogo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .sponsporLogo>img {
+        filter: grayscale(100%);
+        width: 100%;
+    }
+
+
+    /* --------------footer ---------------- */
+    footer>p {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
     }
 }
