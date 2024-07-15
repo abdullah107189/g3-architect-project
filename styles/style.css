@@ -46,8 +46,15 @@
 }
 
 /* header section  */
-nav,
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
 .header-container {
+    padding-bottom: 30px;
+}
+
+.header-section {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -55,7 +62,7 @@ nav,
 nav {
     justify-content: space-between;
     align-items: center;
-    margin: 50px auto;
+    padding: 50px 0px;
 }
 
 nav>h1 {
@@ -95,19 +102,23 @@ nav>ul>li {
 
     nav {
         flex-direction: column;
-        margin: 20px auto;
+        padding: 20px 0px;
         gap: 20px;
     }
 
     nav>h1 {
         font-size: 1.8rem;
     }
+
     .headerImage {
         margin: 20px 0px;
     }
 
+    .header-container {
+        padding-bottom: 5px;
+    }
+
     .headerImage>img {
         width: 100%;
-        padding: 10px;
     }
 }
