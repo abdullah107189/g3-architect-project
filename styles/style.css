@@ -114,6 +114,43 @@ main {
     margin: 30px 0px;
 }
 
+.hide {
+    display: none;
+}
+
+/* experience section here  */
+.experienceSection {
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.exLeft>h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    border-left: 6px solid rgb(255, 144, 14);
+    padding-left: 10px;
+}
+
+.exCard {
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.exCard>h3 {
+    margin-bottom: 10px;
+}
+
+.exRight {}
+
+.exButton {
+    margin-left: -70px;
+    margin-top: -130px;
+}
+
 /* small devices responsive style  */
 @media screen and (max-width:576px) {
     .primaryBtn {
@@ -160,10 +197,12 @@ main {
         flex-direction: column-reverse;
         gap: 0px;
     }
-    .teamMembers{
+
+    .teamMembers {
         padding: 10px;
         margin-bottom: 30px;
     }
+
     .teamMembers>img {
         width: 100%;
         height: auto;
@@ -175,15 +214,19 @@ main {
         flex-direction: column;
         text-align: center;
     }
-    .teamMemberUnder{
+
+    .teamMemberUnder {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 30px;
     }
+
     .teamMemberUnder>p {
         margin: 10px 0px;
     }
+
+
 
 }
