@@ -160,16 +160,17 @@ main {
         flex-direction: column;
         gap: 0px;
     }
-
+    .teamMembers{
+        padding: 10px;
+    }
     .teamMembers>img {
         width: 100%;
         height: auto;
-        padding: 10px;
     }
 
     .teamMembersInfo {
         display: flex;
-        justify-content: center;=
+        justify-content: center;
         flex-direction: column;
     }
     .teamMemberUnder{
