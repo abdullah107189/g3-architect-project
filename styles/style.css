@@ -157,11 +157,12 @@ main {
 
     /* team membar section  */
     .teamMemberSection {
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 0px;
     }
     .teamMembers{
         padding: 10px;
+        margin-bottom: 30px;
     }
     .teamMembers>img {
         width: 100%;
@@ -172,6 +173,7 @@ main {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        text-align: center;
     }
     .teamMemberUnder{
         display: flex;
