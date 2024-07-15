@@ -80,7 +80,11 @@ nav>ul>li {
 }
 
 .headerImage {
+    width: 100%;
     margin: 50px 0px;
+}
+.headerImage>img{
+    width: 100%;
 }
 
 /* team member section start here */
